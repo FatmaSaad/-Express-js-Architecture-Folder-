@@ -1,4 +1,4 @@
-![](images/2023-01-06_15-39.png)
+![](coverage/express.png)
 
 Constructing scalable web applications necessitates a well-organized code and file arrangement. This approach promotes simplified and efficient evolutionary as well as corrective maintenance. I have discovered an architecture that offers clarity while fostering seamless collaboration for extensive projects.
 
@@ -8,7 +8,6 @@ In my experience, this architecture has proven to be highly effective in buildin
 
 # I highly recommend adopting this architectural approach.
 
-![](coverage/express.png)
 ```
 project-root/
 |-- cli/                  # Command-line interface related files
