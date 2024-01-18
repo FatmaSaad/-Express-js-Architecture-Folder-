@@ -24,11 +24,9 @@ project-root/
 |   |-- utils/            # Coverage-related utility files
 |   |-- base.css          # CSS file for coverage reports
 |   |-- block-navigation.js  # JavaScript file for coverage report navigation
-|   |-- favicon.png       # Favicon for coverage reports
 |   |-- index.html        # Coverage report index HTML file
 |   |-- prettify.css      # CSS file for prettifying coverage reports
 |   |-- prettify.js       # JavaScript file for prettifying coverage reports
-|   |-- sort-arrow-sprite.png  # Sprite image for sorting arrows
 |   |-- sorter.js         # JavaScript file for sorting coverage reports
 |-- docs/                 # Documentation files
 |-- logs/                 # Log files
@@ -85,7 +83,7 @@ project-root/
 ```
 ## To create this structure in one command, you can use the following command :
 ```
-mkdir -p project-root/cli/{assets,commands,core,helpers} project-root/coverage/{components,db/models,tmp,utils} project-root/docs project-root/logs project-root/src/components/{auth,controllers,modules,routes,services,types,validators} project-root/src/config project-root/src/db project-root/src/loaders project-root/src/middlewares project-root/src/support project-root/src/utils project-root/tests/{components,fixtures,settings} && touch project-root/cli/.necarc project-root/cli/index.js project-root/coverage/{base.css,block-navigation.js,favicon.png,index.html,prettify.css,prettify.js,sort-arrow-sprite.png,sorter.js} project-root/logs/{application.log,error.log} project-root/src/components/typedefs.js project-root/src/config/{database.js,environment.js} project-root/src/middlewares/{authentication.js,logging.js} project-root/src/utils/{validation.js,helpers.js} project-root/src/components/routes/{userRoutes.js,productRoutes.js,index.js} project-root/.dockerignore project-root/.editorconfig project-root/.env project-root/.eslintrc.js project-root/.gitignore project-root/.prettierrc.js project-root/.sequelizerc project-root/Dockerfile project-root/LICENSE project-root/package-lock.json project-root/package.json project-root/README.md project-root/swagger.json project-root/vitest.config.js project-root/yarn.lock && touch project-root/src/app.js project-root/src/jsconfig.json project-root/src/server.js
+mkdir -p project-root/cli/{assets,commands,core,helpers} project-root/coverage/{components,db/models,tmp,utils} project-root/docs project-root/logs project-root/src/components/{auth,controllers,modules,routes,services,types,validators} project-root/src/config project-root/src/db project-root/src/loaders project-root/src/middlewares project-root/src/support project-root/src/utils project-root/tests/{components,fixtures,settings} && touch project-root/cli/.necarc project-root/cli/index.js project-root/coverage/{base.css,block-navigation.js,index.html,prettify.css,prettify.js,sorter.js} project-root/logs/{application.log,error.log} project-root/src/components/typedefs.js project-root/src/config/{database.js,environment.js} project-root/src/middlewares/{authentication.js,logging.js} project-root/src/utils/{validation.js,helpers.js} project-root/src/components/routes/{userRoutes.js,productRoutes.js,index.js} project-root/.dockerignore project-root/.editorconfig project-root/.env project-root/.eslintrc.js project-root/.gitignore project-root/.prettierrc.js project-root/.sequelizerc project-root/Dockerfile project-root/LICENSE project-root/package-lock.json project-root/package.json project-root/README.md project-root/swagger.json project-root/vitest.config.js project-root/yarn.lock && touch project-root/src/app.js project-root/src/jsconfig.json project-root/src/server.js
 
 ```
 ### CLI
@@ -126,11 +124,9 @@ In summary, the CLI support folder serves as a valuable asset, permitting develo
 |   |--utils/
 |   |--base.css
 |   |-- block-navigation.js
-|   |-- favicon.png
 |   |-- index.html
 |   |-- prettify.css
 |   |-- prettify.js
-|   |--sort-arrow-sprite.png
 |   |--sorter.js
 
 ```
