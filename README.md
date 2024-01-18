@@ -81,12 +81,12 @@ project-root/
 |-- yarn.lock             # Yarn lock file
 
 ```
-## To create this structure in one command, you can use the following command :
+# To create this structure in one command, you can use the following command :
 ```
 mkdir -p project-root/cli/{assets,commands,core,helpers} project-root/coverage/{components,db/models,tmp,utils} project-root/docs project-root/logs project-root/src/components/{auth,controllers,modules,routes,services,types,validators} project-root/src/config project-root/src/db project-root/src/loaders project-root/src/middlewares project-root/src/support project-root/src/utils project-root/tests/{components,fixtures,settings} && touch project-root/cli/.necarc project-root/cli/index.js project-root/coverage/{base.css,block-navigation.js,index.html,prettify.css,prettify.js,sorter.js} project-root/logs/{application.log,error.log} project-root/src/components/typedefs.js project-root/src/config/{database.js,environment.js} project-root/src/middlewares/{authentication.js,logging.js} project-root/src/utils/{validation.js,helpers.js} project-root/src/components/routes/{userRoutes.js,productRoutes.js,index.js} project-root/.dockerignore project-root/.editorconfig project-root/.env project-root/.eslintrc.js project-root/.gitignore project-root/.prettierrc.js project-root/.sequelizerc project-root/Dockerfile project-root/LICENSE project-root/package-lock.json project-root/package.json project-root/README.md project-root/swagger.json project-root/vitest.config.js project-root/yarn.lock && touch project-root/src/app.js project-root/src/jsconfig.json project-root/src/server.js
 
 ```
-### CLI
+## CLI
 ```
 |-- cli/
 |   |-- assets/
@@ -115,7 +115,7 @@ In summary, the CLI support folder serves as a valuable asset, permitting develo
 - Improved code quality: By enforcing coding standards and conventions, the CLI support folder assists developers in writing superior code.
 - Error reduction: The CLI support folder ensures a consistent development environment, thereby minimizing errors.
 
-### coverage
+## coverage
 ```
 |-- coverage/
 |   |-- components/
@@ -146,7 +146,7 @@ Here are some benefits of utilizing the coverage folder:
 - Reduced bugs: Locating areas with inadequate test coverage helps developers minimize the occurrence of bugs within their applications.
 - Increased productivity: The coverage folder aids developers in identifying areas that necessitate additional testing, thereby facilitating a more productive testing process.
 
-### docs 
+## docs 
 The docs directory is designated for storing comprehensive documentation of the application. This documentation encompasses various aspects including:
 
 - API documentation: A detailed description of the application's APIs, typically presented in a developer-consumable format such as Swagger or OpenAPI.
@@ -163,7 +163,7 @@ Here are some benefits of utilizing the docs folder:
 - Enhanced user experience: User documentation within the docs folder ensures users receive clear and concise instructions on how to use the application, resulting in an improved user experience.
 - Increased adoption: By simplifying the process of discovering and understanding the application, the docs folder facilitates its adoption by both developers and end users.
 
-### logs
+## logs
 The logs folder is designated for storing application logs, encompassing various types of logs:
 
 - Error logs: Contains detailed information about errors occurring within the application.
@@ -180,7 +180,7 @@ Here are some benefits of utilizing the logs folder:
 - Performance monitoring: System administrators can monitor the application's performance using the logs folder, mitigating potential issues before they escalate.
 - Troubleshooting: Both developers and system administrators benefit from the logs folder when troubleshooting problems within the application, helping them identify the root cause and address the issues effectively.
 
-### SRC
+## SRC
 
 ```
 |-- src/
@@ -219,7 +219,9 @@ Key benefits of utilizing the SRC folder include:
 - Code organization: The SRC folder enables developers to organize their code logically, facilitating quick and easy access to specific code segments.
 - Code reuse: By storing code in a central location, the SRC folder promotes code reuse, thereby saving time and effort.
 - Code portability: The SRC folder, by employing a standardized format, allows developers to easily deploy their applications across different environments.
+
 #### components
+
 ```
 |   |--components/
 |   |   |-- auth/
@@ -250,25 +252,29 @@ This directory proves invaluable to developers, offering several advantages:
 
 The src folder also includes other significant directories:
 
-#### config
+### config
 Stores environment variables and configuration-related files.
 
-#### loaders
+### loaders
 Contains Lodash routes and configurations, with the added function of validating configurations.
 
-#### middlewares
+### middlewares
 Hosts custom Express middlewares for tasks like authentication, logging, caching, and error handling.
 
-#### support
-Contains a wrapper around utilized packages, simplifying the replacement of packages.
-#### utils
-    Incorporates utility classes and functions.
-#### app.js
-    Holds the Express app.
-#### server.js
-    Serves as the entry point for the application.
+### support
+Contains a wrapper around utilized packages, simplifying the replacement of packages. 
 
-### tests 
+### utils
+Incorporates utility classes and functions.
+
+### app.js
+Holds the Express app.
+
+### server.js
+Serves as the entry point for the application.
+
+## tests 
+
 ```
 |-- tests/
 |   |--components/
